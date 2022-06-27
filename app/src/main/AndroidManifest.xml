@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LogInUi">
         <activity
-            android:name=".view.activities.RegistrationActivity"
+            android:name=".view.activities.LogInActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activities.LogInActivity"
+            android:name=".view.activities.MainActivity"
             android:exported="false" />
         <activity
             android:name=".view.activities.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".view.activities.MainActivity"
+            android:name=".view.activities.RegistrationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/purple_200"
     tools:context=".view.activities.RegistrationActivity">
 
@@ -13,31 +12,32 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
+
         <ImageView
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="40dp"
-            android:src="@drawable/ic_arrow_back_24"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_arrow_back_24" />
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-          android:layout_marginStart="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
             android:layout_marginBottom="15dp"
             android:text="Create Account"
-            android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="30sp"
-            />
+            android:textStyle="bold" />
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginEnd="10dp"
-            app:cardCornerRadius="20dp"
-            android:layout_height="wrap_content">
+            app:cardCornerRadius="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -56,11 +56,11 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            app:cardCornerRadius="20dp"
-            android:layout_height="wrap_content">
+            app:cardCornerRadius="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -76,13 +76,14 @@
             </com.google.android.material.textfield.TextInputLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            app:cardCornerRadius="20dp"
-            android:layout_height="wrap_content">
+            app:cardCornerRadius="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -98,13 +99,14 @@
             </com.google.android.material.textfield.TextInputLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            app:cardCornerRadius="20dp"
-            android:layout_height="wrap_content">
+            app:cardCornerRadius="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -120,11 +122,13 @@
             </com.google.android.material.textfield.TextInputLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
             android:background="@color/white"
             android:padding="5dp"
             app:cardBackgroundColor="@color/white"
@@ -139,6 +143,7 @@
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="10dp"
+
                 android:text="Sign Up" />
 
         </androidx.cardview.widget.CardView>
@@ -149,7 +154,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:orientation="horizontal">
 

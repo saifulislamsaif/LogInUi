@@ -103,6 +103,8 @@
                 android:paddingStart="40dp"
                 android:paddingTop="10dp"
                 android:paddingEnd="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:paddingBottom="10dp"
                 android:text="Login" />
 
