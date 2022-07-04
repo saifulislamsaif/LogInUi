@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_accept_ok_valid.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/ic_alert.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/ic_no_internet.xml" value="0.213" />
         <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.33" />
       </map>
